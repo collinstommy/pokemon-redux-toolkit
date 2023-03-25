@@ -18,7 +18,7 @@ function App() {
     dispatch(downVote(id));
   };
 
-  if (loading) return "Loading";
+  if (loading) return <div>Loading</div>;
 
   return (
     <div className="flex justify-center">
